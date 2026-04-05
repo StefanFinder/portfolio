@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "skills": ["Java", "Python", "Golang", "JavaScript", "C++", "SQL"]
+    },
+    {
+      "name": "Frameworks",
+      "skills": ["Spring Boot", "Spring MVC", "Spring Cloud", "React", "Angular", "Vue", "Node.js"]
+    },
+    {
+      "name": "Messaging",
+      "skills": ["Kafka", "ZeroMQ"]
+    },
+    {
+      "name": "Databases",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB"]
+    },
+    {
+      "name": "Infrastructure",
+      "skills": ["Kubernetes", "Docker", "OpenShift", "AWS", "GCP"]
+    },
+    {
+      "name": "Tools & Testing",
+      "skills": ["Maven", "Liquibase", "Redis", "Git", "Grafana", "Jenkins", "JUnit", "Mockito", "MockMvc", "AssertJ", "Awaitility"]
+    }
+  ]
+}

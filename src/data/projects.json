@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Twitch-Go",
+      "subtitle": "Personalized Twitch Recommendation Engine",
+      "description": "Full-stack Spring Boot application for searching Twitch resources (clips, videos, streams) with personalized recommendations. Backed by MySQL on AWS RDS via Spring Data JDBC, with RESTful APIs consuming the Twitch API using OpenFeign HTTP client. Deployed on AWS App Runner via Docker.",
+      "tech": ["Java", "Spring Boot", "MySQL", "AWS RDS", "AWS App Runner", "Docker", "OpenFeign"],
+      "githubUrl": "https://github.com/StefanFinder"
+    },
+    {
+      "title": "Document AI",
+      "subtitle": "Web-Based Q&A Agent for PDF Documents",
+      "description": "Real-time conversational UI built with React and Ant Design for querying uploaded PDF documents. RESTful API backend built with Node.js and Express, powered by OpenAI GPT-3.5 Turbo and LangChain for document parsing, splitting, retrieval, and response generation.",
+      "tech": ["React", "Ant Design", "Node.js", "Express", "OpenAI API", "LangChain"],
+      "githubUrl": "https://github.com/StefanFinder"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "employers": [
+    {
+      "company": "SMBC Nikko Securities America",
+      "location": "Charlotte, NC",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "type": "Full-time",
+          "period": "Nov 2024 – Present",
+          "bullets": [
+            "Designed and implemented data pipelines to ingest real-time position data via Kafka and integrate position snapshots from Bloomberg, enriched with security master reference data for risk monitoring",
+            "Implemented throttled live price ingestion for UST bonds, bond futures, and SOFR futures via ZeroMQ, enabling low-latency real-time risk and P&L calculations",
+            "Designed and implemented an event-driven trade reconciliation feature to validate consistency between E-Trading and Bloomberg-derived trade data, comparing Kafka events across systems and publishing mismatch alerts for downstream monitoring",
+            "Built a real-time configurable price ladder by merging market and volume-at-price (VAP) data with trader quantities for UST bonds and futures using Orion Pipeline and Stream",
+            "Designed and implemented a client-contact-salesperson onboarding and management system using Spring Boot and PostgreSQL in collaboration with cross-functional teams",
+            "Performed integration and regression testing for microservices using JUnit 5, AssertJ, and Awaitility in a WebSocket-based architecture",
+            "Managed service pod lifecycle and deployment using Kubernetes and OpenShift for scalable delivery"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "SECURAM",
+      "location": "Newbury Park, CA",
+      "roles": [
+        {
+          "title": "Software Application Engineer",
+          "type": "Full-time",
+          "period": "Aug 2023 – Nov 2024",
+          "bullets": [
+            "Standardized project workflows using Agile/Scrum methodology",
+            "Managed deployment and maintenance of Weblink software using Docker",
+            "Implemented RESTful APIs for Weblink Software using Golang"
+          ]
+        }
+      ]
+    }
+  ]
+}
