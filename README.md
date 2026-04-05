@@ -30,6 +30,8 @@ Open [http://localhost:3000](http://localhost:3000).
 | `RESEND_API_KEY` | API key from resend.com |
 | `EMAIL_TO_ADDRESS` | Recipient email for contact form |
 | `CONTACT_RATE_LIMIT` | Max submissions per IP per hour (default: 5) |
+| `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | reCAPTCHA v3 site key (client-side) |
+| `RECAPTCHA_SECRET_KEY` | reCAPTCHA v3 secret key (server-side) |
 
 ## Content
 
@@ -37,15 +39,17 @@ All content is in `/src/data/*.json` — edit files directly, no CMS needed.
 
 ## Deployment (GCP Cloud Run)
 
+Make sure Docker Desktop is running and you are authenticated:
+
 ```bash
-npm run build
-docker build -t portfolio .
-docker tag portfolio gcr.io/PROJECT_ID/portfolio
-docker push gcr.io/PROJECT_ID/portfolio
-gcloud run deploy portfolio \
-  --image gcr.io/PROJECT_ID/portfolio \
-  --platform managed \
-  --port 3000 \
-  --memory 512Mi \
-  --set-env-vars RESEND_API_KEY=...,EMAIL_TO_ADDRESS=...
+gcloud auth login
+gcloud config set project portfolio-492420
 ```
+
+Then deploy everything (push to GitHub + build image + deploy to GCP) with one command:
+
+```bash
+npm run deploy
+```
+
+Live URL: https://portfolio-1078341789962.us-central1.run.app
