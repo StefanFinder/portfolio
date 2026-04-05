@@ -17,7 +17,7 @@ export default function Resume() {
           Download my full resume to learn more about my experience, skills, and education.
         </p>
         <a
-          href="/assets/Resume_Stefan_java_12152025.pdf"
+          href="/assets/Stefan_resume.pdf"
           download
           className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-cosmic text-white font-semibold text-lg hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-accent-blue shadow-lg shadow-accent-blue/20"
           aria-label="Download Stefan Chen's resume PDF"
