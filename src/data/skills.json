@@ -2,7 +2,7 @@
   "categories": [
     {
       "name": "Programming Languages",
-      "skills": ["Java", "Python", "Golang", "JavaScript", "C++", "SQL"]
+      "skills": ["Java", "Python", "Golang", "JavaScript", "TypeScript", "C++", "SQL"]
     },
     {
       "name": "Frameworks",
