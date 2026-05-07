@@ -25,13 +25,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Environment Variables
 
-| Variable | Description |
-|---|---|
-| `RESEND_API_KEY` | API key from resend.com |
-| `EMAIL_TO_ADDRESS` | Recipient email for contact form |
-| `CONTACT_RATE_LIMIT` | Max submissions per IP per hour (default: 5) |
-| `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | reCAPTCHA v3 site key (client-side) |
-| `RECAPTCHA_SECRET_KEY` | reCAPTCHA v3 secret key (server-side) |
+| Variable                         | Description                                  |
+| -------------------------------- | -------------------------------------------- |
+| `RESEND_API_KEY`                 | API key from resend.com                      |
+| `EMAIL_TO_ADDRESS`               | Recipient email for contact form             |
+| `CONTACT_RATE_LIMIT`             | Max submissions per IP per hour (default: 5) |
+| `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` | reCAPTCHA v3 site key (client-side)          |
+| `RECAPTCHA_SECRET_KEY`           | reCAPTCHA v3 secret key (server-side)        |
 
 ## Content
 
